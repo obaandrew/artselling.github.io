@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+}
+
+.featured-art {
+    /* Style for the featured art section */
+    /* Add your preferred layout and styles here */
+}
+
+.introduction {
+    /* Style for the introduction section */
+    /* Add your preferred layout and styles here */
+}
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.featured-art {
+ text-align: center; 
+}
+
+.art-piece {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+    background-color: #f9f9f9; /* Background color for art-piece */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.introduction {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.introduction h2 {
+    color: #3366cc;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.introduction p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.introduction p:last-child {
+    font-weight: bold;
+    color: #666;
+    margin-top: 15px;
+}
+
+.introduction:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.testimonials h2 {
+    color: #3366cc;
+}
+
+.testimonial {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p:first-child {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.testimonial p:last-child {
+    font-weight: bold;
+    color: #666;
+    margin-top: 5px;
+}
+
+.testimonial:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+
+.testimonial:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.testimonials:before, .testimonials:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Background color for the newsletter section */
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.newsletter h2 {
+    color: #3366cc; /* Title color */
+}
+
+.newsletter p {
+    margin: 10px 0;
+    color: #555; /* Description text color */
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.newsletter input[type="submit"] {
+    background-color: #3366cc; /* Submit button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter input[type="submit"]:hover {
+    background-color: #264d7a; /* Color change on hover */
+}

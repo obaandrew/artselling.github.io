@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: orange; /* Your preferred theme color */
+    padding: 20px;
+    color: white; /* Text color to contrast with the background */
+}
+
+.login-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: white; /* or your preferred background color */
+}
+
+.login-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.login-form input[type="submit"] {
+    background-color: red; /* Your preferred theme color */
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: orange; /* Your preferred theme color */
+    color: white; /* Text color to contrast with the background */
+}
